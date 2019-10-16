@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a i{
+    font-size: 18px!important;
+    color:white!important;
+}
+h1,h2,h3{
+    font-weight:900px;
+}
+h4,h5,h6{
+    font-weight: 700px;
+}
+.btn{
+    box-shadow: none!important;
+    border-radius: 0px!important;
+    border:transparent!important;
+    background-color: black!important;
+}
+.btn:hover{
+    background-color: white!important;
+    color:black!important;
+    transition: 0.3s;
+    border: 1px solid black!important;
+}
+
+.section-headings{
+    text-align: center;
+}
+.anvbar{
+    opacity: 1;
+
+}
+.navbar-brand{
+    font-size: 2rem!important;
+}
+.nav-link,.navbar-brand{
+    color: black!important;
+}
+/*home*/
+
+.home{
+    min-height: 660px;
+    overflow: hidden;
+    background-image: url(img/main-5.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+.card{
+    transition-duration: 0.5s;
+
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card-img-top{
+    height: 300px;
+    object-fit:cover;
+
+}
+
+/*call to action*/
+
+
+
+.cta{
+    background-color: black;
+    padding:50px 20px;
+
+}
+.cta.btn{
+    border:1px solid white!important;
+    background-color: white!important;
+}
+/*gallery*/
+.price-tag{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.price{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.dollar{
+    font-size: 1.4rem;
+    
+}
+.gallery{
+    column-count:3;
+    column-width: 33%;
+
+}
+.gallery .pics{
+    position: relative;
+    overflow: hidden!important;
+}
+.gallery .pics img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/************testimonial ******************/
+.testimonial-image{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.testimonial{
+    background-color: black;
+    color: white!important;
+}
+/************contact form******************/
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="text"],
+textarea{
+    border-radius: 0px!important;
+    padding: 30px 10px!important;
+    border:none;
+    border-bottom: 2px solid black!important;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+textarea:focus{
+    border-color: black!important;
+    box-shadow: black!important;
+}
+/************footer ******************/
+.footer{
+    background-color: black!important;
+    color: white!important;
+}
+.footer .navbar-brand{
+    color: blanchedalmond!important;
+}
+.footer .nav-link{
+    color: blanchedalmond!important;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-default.scrolled{
+    background:orange;
+  }
+  /************responsive ******************/
+
+  @media (max-width:700px){
+      .cta{
+        text-align:center;
+      }
+      .gallery{
+          column-count: 1;
+          column-width: 100%;
+      }
+  }

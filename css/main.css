@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+a i{
+    font-size: 18px!important;
+    font-color:white!important;
+}
+h1,h2,h3{
+    font-weight:900px;
+}
+h4,h5,h6{
+    font-weight: 700px;
+}
+.btn{
+    box-shadow: none!important;
+    border-radius: 0px!important;
+    border:none!important;
+    background-color: black!important;
+}
+
+/************contact form******************/
